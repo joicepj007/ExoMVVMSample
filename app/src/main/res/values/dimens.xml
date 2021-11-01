@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_margin">24dp</dimen>
+
+    <dimen name="bottom_nav_size">75dp</dimen>
+    <dimen name="horizontal_img_size">130dp</dimen>
+    <dimen name="layout_card_img_hieght">160dp</dimen>
+    <dimen name="layout_img_width">120dp</dimen>
+    <dimen name="toolbar_size">130dp</dimen>
+    <dimen name="marginr_10">10dp</dimen>
+    <dimen name="marginr_3">3dp</dimen>
+    <dimen name="marginr_4">4dp</dimen>
+    <dimen name="marginr_5">5dp</dimen>
+    <dimen name="marginr_6">6dp</dimen>
+    <dimen name="marginr_8">8dp</dimen>
+    <dimen name="marginr_10sp">10sp</dimen>
+    <dimen name="marginr_12">12dp</dimen>
+    <dimen name="marginr_12sp">12sp</dimen>
+    <dimen name="marginr_14sp">14sp</dimen>
+    <dimen name="marginr_15sp">15sp</dimen>
+    <dimen name="marginr_17sp">17sp</dimen>
+    <dimen name="marginr_18sp">18sp</dimen>
+    <dimen name="marginr_24sp">24sp</dimen>
+    <dimen name="marginr_20">20dp</dimen>
+    <dimen name="marginr_25">25dp</dimen>
+    <dimen name="marginr_28">28dp</dimen>
+    <dimen name="marginr_30">30dp</dimen>
+    <dimen name="marginr_50">50dp</dimen>
+    <dimen name="marginr_70">70dp</dimen>
+    <dimen name="marginr_65">65dp</dimen>
+    <dimen name="marginr_15">15dp</dimen>
+
+</resources>

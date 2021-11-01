@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="events"
+            type="com.android.dazncodingchallenge.domain.Events" />
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_card_img_hieght"
+        android:layout_margin="@dimen/marginr_10"
+        app:cardCornerRadius="@dimen/marginr_8"
+        app:cardElevation="@dimen/marginr_4"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/marginr_10"
+            android:transitionName="profile">
+
+            <RelativeLayout
+                android:id="@+id/iv_header"
+                android:layout_width="@dimen/layout_img_width"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/profile_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_cw_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_play_thumbnail"
+                    android:visibility="gone"
+                    />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginr_10"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/iv_header"
+                android:ellipsize="end"
+                android:text="@{events.title}"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_marginStart="@dimen/marginr_10"
+                android:layout_marginTop="@dimen/marginr_4"
+                android:layout_toEndOf="@+id/iv_header"
+                android:ellipsize="end"
+                android:text="@{events.subtitle}"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/marginr_10"
+                android:layout_marginTop="@dimen/marginr_8"
+                android:layout_toEndOf="@+id/iv_header"
+                android:ellipsize="end"
+                android:paddingBottom="@dimen/marginr_15"
+                android:textColor="@color/distance_text"
+                android:textSize="@dimen/marginr_14sp" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
