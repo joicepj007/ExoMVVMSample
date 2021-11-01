@@ -1,6 +1,3 @@
-# android-test
-
-Hello! Thanks for letting me to take part in this test. I was glad i could take it.
 
 ### Architecture Used:
 
